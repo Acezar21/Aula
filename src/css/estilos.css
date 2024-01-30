@@ -1,5 +1,5 @@
 body{
-    background-color: #282828;
+    background-color: black;
     color: #fff;
 }
 
@@ -16,7 +16,7 @@ body{
 .cabecalho .logo {
     display: flex;
 	gap: 15px;
-    height: 160px;
+    height: 150px;
 }
 
 .cabecalho .menu {
@@ -54,6 +54,7 @@ font-family: 'SaintSeiya';
 .home .imagem-fundo {
     width: 100%;
     object-fit: cover;
+    
 }
 
 .home .informacoes {
@@ -65,10 +66,11 @@ font-family: 'SaintSeiya';
     justify-content: center;
     gap: 32px;
     padding: 80px 80px 80px 170px;
-    max-width: 780px;
+    max-width: 100%px;
 }
 
 .home .informacoes img{
+    margin: 0 auto;
     max-width: 500px;
     
    
@@ -91,11 +93,12 @@ font-family: 'SaintSeiya';
     line-height: 1.6;
     text-align: center;
     
+    
 }
 
 .btn-comprar, .btn-plataforma{
-    background-color: rgba(255,255,255, .1);
-    border: 0.5px solid #fff;
+    background-color: rgba(232, 240, 0, 0.1);
+    border: 0.5px solid #c46a40;
     border-radius: 4px;
     font-family: 'SaintSeiya';
     font-size: 28px;
@@ -107,15 +110,22 @@ font-family: 'SaintSeiya';
   
 }
 
+.btn-comprar{
+
+    margin: 0 auto;
+}
+
 .btn-plataforma{
     color: #fff;
     width: 100%;
     cursor: pointer;
+   
 }
 
 .btn-comprar:hover{
     background-color: #fff;
     color: #000;
+
 }
 
 .compre-ja .capa-do-jogo{
@@ -142,13 +152,14 @@ font-family: 'SaintSeiya';
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #000;
+    background-color: #100f0d;
     width: 50%;
     border-radius: 10px;
     padding: 80px;
     gap: 40px;
     
 }
+
 .compre-ja .informacoes{
     display: flex;
     flex-direction: column;
